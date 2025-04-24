@@ -21,11 +21,15 @@ This repository contains practice problems and implementations of two fundamenta
 
 ### ✅ DFS Problems (`DFS.java`)
 
-- **Flood Fill** – Recolor a connected region.
 - **Number of Islands** – Count distinct land masses.
+- **Flood Fill** – Recolor a connected region.
+- **Count Rooms** – Count the number of rooms.
 - **Max Area of Island** – Largest connected group of 1s.
-- **Surrounded Regions** – Flip surrounded regions to 'X'.
-- **Word Search** – Determine if a word exists in the grid.
+- **Number of Enclaves** – Find the amount of land that cannot reach the border.
+- **Solve** – Flip all 'X' to 'O' in and vice versa in a grid. (in place)
+- **Exist** – Checks if a word exists in the board.
+- **Min Steps to Treasure** – Finds the shortest path from 'S' to 'X' in a grid using DFS.
+- **Shortest Bridge** - Finds the shortest bridge (number of 0s to flip) to connect two separate islands in the grid.
 
 ---
 
@@ -52,7 +56,7 @@ This repository contains practice problems and implementations of two fundamenta
   } 
   ```
 
-  ### 🧭 DFS (Depth-First Search)
+### 🧭 DFS (Depth-First Search)
 - Uses recursion or an explicit stack to explore deeply along a path before backtracking.
 - Ideal for exploring connected regions, backtracking, or flood-fill type problems.
 - Often used when you need to visit every cell in a region or all possible paths.
